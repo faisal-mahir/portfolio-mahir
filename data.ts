@@ -5,6 +5,7 @@ export const data: PortfolioData = {
   tagline: "CO-FOUNDER & CEO | AR/VR PIONEER | PROBLEM SOLVER",
   heroImageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070",
   showHeroImage: false,
+  cvUrl: "/Mahir_Faisal_CV.pdf", // Placeholder URL for the CV
   contact: {
     phone: "(+45) 91957801",
     email: "mahirdfaisal@gmail.com",
@@ -46,6 +47,10 @@ export const data: PortfolioData = {
     { id: 4, title: "Boats Of Bengal", period: "2021", description: "Crafted an engaging puzzle game for the Bangladesh Maritime Museum, showcasing the maritime culture of Bengal.", tags: ["Game Dev", "Culture"] },
     { id: 5, title: "IED Simulator", period: "2019 - 2020", description: "Created a training simulation for the Bangladesh Army to simulate scenarios involving Improvised Explosive Devices (IEDs).", tags: ["Simulation", "Military", "Training"] },
     { id: 6, title: "7th March Speech VR", period: "2017", description: "Immersed users in the historic \"Father of the Nation\" 7th March speech through a virtual reality experience, providing a unique perspective on Bangladesh's history.", tags: ["VR", "History", "Immersive"], imageUrl: "https://images.unsplash.com/photo-1620912189835-4a6f6f3938e2?q=80&w=800" }
+  ],
+  blogPosts: [
+    { id: 1, title: "From Virtual Worlds to Culinary Arts: My Danish Journey", date: "August 15, 2024", imageUrl: "https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=800", excerpt: "Why would a tech CEO seek a job in a kitchen? It's all about embracing new challenges and understanding culture from a different perspective...", content: "Full blog post content goes here. It can be a longer string, even with Markdown formatting that you could parse later. For now, we'll keep it simple. It's about the philosophy of continuous learning. After spending years building complex virtual realities, I realized that some of the most profound user experiences are analog. The smell of fresh bread, the clatter of a busy kitchen, the satisfaction of a perfectly prepared meal. This journey into the culinary world of Denmark is not a step back, but a step sideways into a new dimension of creativity and discipline. I believe the lessons learned in humility, teamwork, and precision will be invaluable, no matter where my path leads next." },
+    { id: 2, title: "The surprising parallels between game development and kitchen work", date: "August 01, 2024", imageUrl: "https://images.unsplash.com/photo-1600565193348-f74d3c2723a9?q=80&w=800", excerpt: "Resource management, timing, and team coordination. It turns out that a game engine and a professional kitchen have a lot in common.", content: "You wouldn't think it, but my time leading Glitch Games prepared me surprisingly well for a fast-paced kitchen environment. In game development, you're constantly juggling resources—CPU cycles, memory, artist time. In a kitchen, it's ingredients, burner space, and staff coordination. Both require precise timing to bring multiple components together at the perfect moment. A bug in the code can ruin a player's experience; a mistake in the kitchen can ruin a dish. Both are high-pressure environments where communication and a cool head are absolutely critical for success." }
   ],
   references: [
     { id: 1, name: "Abhijit Bhowmik", title: "Professor & Special Assistant [OSA]", organization: "American International University of Bangladesh", phone: "+880 1926836045", email: "abhijit@aiub.edu" },

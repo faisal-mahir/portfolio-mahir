@@ -28,12 +28,22 @@ export interface SkillCategory {
     items: string[];
 }
 
+export interface BlogPost {
+  id: number;
+  title: string;
+  date: string;
+  imageUrl: string;
+  excerpt: string;
+  content: string; // Can be Markdown
+}
+
 
 export interface PortfolioData {
   name: string;
   tagline: string;
   heroImageUrl: string;
   showHeroImage: boolean;
+  cvUrl: string;
   contact: {
     phone: string;
     email: string;
@@ -54,6 +64,7 @@ export interface PortfolioData {
   workExperiences: Experience[];
   achievements: Achievement[];
   projects: Project[];
+  blogPosts: BlogPost[];
   references: {
     id: number;
     name: string;
